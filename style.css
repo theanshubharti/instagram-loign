@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle&family=Roboto+Condensed:ital@1&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+display: flex;
+align-items: center;
+justify-content: center;
+
+width: 300px;
+height: 400px;
+background-color:rgb(254, 255, 255);
+border: 1px solid rgb(182, 180, 180);
+flex-direction: column;
+
+}
+button{
+width: 200px;
+height: 30px;
+border-radius: 10px ;
+background-color: rgb(54, 115, 206);
+border: none;
+color: white;
+} 
+hr{
+color: black ;
+width: 60px;
+height: 1px;
+margin-top: 2px;
+
+
+}
+span{
+    display: flex;
+  
+}
+body{
+    background-color: rgb(248, 248, 248);
+}
+.line{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.pass{
+    margin-top: 20px;
+}
+.download-pages img{
+width: 150px;
+height: 50px;
+
+
+}
+.box1 img{
+ width: 200px;
+ margin-bottom: 50px;
+}
+.img-section img{
+    height: 500px;
+}
+
+.img-section{
+    width: 50%;
+    margin-left: -50px;
+    
+    margin-right: 180px;
+}
+
+.sm-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.key-box{
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+input{
+    width: 240px;
+    height: 30px;
+    margin-bottom: -10px;
+}
